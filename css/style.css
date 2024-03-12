@@ -10873,3 +10873,25 @@ h5,
 .content-container p {
   color: #555;
 }
+.article-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 800px;
+}
+.article-card {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 15px;
+  width: calc(33.333% - 20px);
+}
+.article-card img {
+  max-width: 100%;
+  height: auto;
+}
+.article-card h2 {
+  margin-top: 0;
+}
